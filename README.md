@@ -10,35 +10,48 @@ Esta aplicación proporciona una API para gestionar personas y sus direcciones u
 ## Instalación
 
 ### Clonar el Repositorio:
-- git clone https://github.com/Quai1921/Test-NodeJS-API-Persons.git
-- cd Test-NodeJS-API-Persons
+```bash
+git clone https://github.com/Quai1921/Test-NodeJS-API-Persons.git
+cd Test-NodeJS-API-Persons
+```
 
 ### Instalar Dependencias
-- npm install
-
+```bash
+npm install
+```
 
 ## Configuración
 ### Base de Datos:  
 MongoDB debe estar corriendo en:  
-- mongodb://localhost:27017/APINEXOPERSON.
+```bash
+mongodb://localhost:27017/APINEXOPERSON
+```
 
 
 ### Ejecución
 Iniciar el servidor 
-- npm start
+```bash
+npm start
+```
 
 El servidor va a iniciarse en el puerto 3000 (o el puerto especificado en la variable de entorno PORT).
 
 ## Documentación de Swagger
-La documentación de la API estará disponible en la ruta:  
-- http://localhost:3000/api-docs
+La documentación de la API estará disponible en la ruta:
+```bash
+http://localhost:3000/api-docs
+```
 
 ## Test de los endpoints
 Para las pruebas, debes tener instalado Mocha y Chai:  
-- npm install --save-dev mocha chai chai-http
+```bash
+npm install --save-dev mocha chai chai-http
+```
 
 Ejecutarlas mediante:  
-- npm test
+```bash
+npm test
+```
 
 ## Rutas de la API
 ### *Crear una persona*
